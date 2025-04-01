@@ -33,7 +33,7 @@ class ReactiveBlePlugin : FlutterPlugin, MethodChannel.MethodCallHandler {
 
         @JvmStatic
         private fun deinitializePlugin() {
-            pluginController.deinitialize()
+            //pluginController.deinitialize()
         }
     }
 
